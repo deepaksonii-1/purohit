@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html,body{
+font-family: 'Lato', sans-serif;
+}
+.btn{
+    border-radius: 2px;
+}
+
+/*******************************************************************header ********************/
+header {
+  background: linear-gradient(-90deg, #FF5714, #f67340 , #fc4c00);
+  height: 140px;
+}
+header img {
+  max-width: 400px;
+}
+header .btn1{
+  float: right;
+  font-size: 16px;
+  width: 90px;
+  height: 35px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 30px 15px;
+  transition: all .2s ease;
+}
+header .btn1:hover{
+  background: black;
+  opacity: .2;
+  transform: scale(.9);
+}
+
+header .navbar .container{
+background: white;
+border-radius: 40px;
+position: relative;
+}
+header .navbar a{
+  letter-spacing: 1px;
+  color: #2b2c2f;
+  font-weight: 700;
+  transition: all .3s ease;
+  text-transform: uppercase;
+}
+header .nav>li>a{
+  padding: 20px 25px;
+}
+header .navbar a:hover{
+  background-color: #ffd51d;
+}
+header .navbar-toggle{
+  background-color: white;
+  opacity: .8;
+  margin-top: 0px;
+}
+header .navbar-toggle .icon-bar{
+background: #757575;
+}
+@media screen and (max-width: 996px){
+  header .nav>li>a{
+    padding: 15px 20px;
+  }
+  header .navbar a{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px){
+header .navbar-collapse.in{
+  background: rgba(255, 255, 255, 0.45) !important;
+}
+
+header .nav>li>a{
+  padding: 10px 30px;
+}
+  header {
+    height: 90px;
+  }
+  header .navbar .container{
+  background: transparent;
+  border-radius: 0px;
+  position: static;
+  }
+  header img {
+    margin: 15px 15px;
+    max-width: 250px;
+  }
+  header .btn1{
+    font-size: 10px;
+    width: 50px;
+    height: 20px;
+    line-height: 18px;
+    border: 1px solid white;
+    margin: 30px 20px 0 0;
+  }
+}
+
+
+/******************************************************************* slider ********************/
+section.slider {
+  position: relative;
+  z-index: -5;
+}
+
+/******************************************************************* articles ********************/
+section.articles{
+  padding: 30px 20px;
+}
+section.section2{
+  padding: 30px 20px;
+}
+
+
+/******************************************************************* footer ********************/
+footer{
+  height: 200px;
+  background: rgb(205, 42, 72);
+}
