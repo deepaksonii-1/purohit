@@ -125,9 +125,33 @@ section.section2{
 
 /******************************************************************* footer ********************/
 footer{
-  height: 200px;
-  background: rgb(205, 42, 72);
+  background: #ffffff;
   padding: 50px;
+  border: 1px solid #dadada;
+    text-align: center;
+    color: #aa884e;
+}
+footer .inner{
+  background: #ffcb9c;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+footer span{
+  margin: 10px  0 20px 0;
+  font-size: 25px;
+
+}
+footer li{
+  text-transform: uppercase;
+  display: inline-block;
+  list-style: none;
+}
+footer li a{
+  padding: 0 20px;
+  color: inherit;
+  text-decoration: none;
 }
 
 
